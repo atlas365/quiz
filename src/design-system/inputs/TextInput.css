@@ -1,0 +1,81 @@
+.inputContainer {
+  position: relative;
+  display: "flex";
+  margin-right: 32px;
+}
+
+.label {
+  font-size: 14px;
+  opacity: 0;
+  margin-left: 16px;
+  margin-top: 2px;
+  position: absolute;
+  top: 10px;
+  color: var(--darkBlue);
+  transition: 0.3s all ease-in-out;
+}
+
+.label.top {
+  top: 2px;
+  opacity: 1;
+}
+
+.errorClass {
+  font-size: 14px;
+  opacity: 0;
+  margin-left: 16px;
+  margin-top: 2px;
+  position: absolute;
+  top: 36px;
+  color: var(--darkBlue);
+  color: #ff0033;
+  transition: 0.3s all ease-in-out;
+}
+
+.errorClass.show {
+  top: 44px;
+  opacity: 1;
+}
+
+.inputField {
+  border: 2px solid var(--babyBlue);
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  height: 66px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+}
+
+.inputField:hover {
+  border-color: var(--darkBlue);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.inputField.active {
+  border-color: var(--darkBlue);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.inputField.error {
+  border-color: #ff0033;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.inputField input {
+  width: 100%;
+  height: 66px;
+  position: relative;
+  padding: 0px 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  color: var(--midnightBlue);
+  outline: none;
+  box-shadow: 0px 4px 20px 0px transparent;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out,
+    0.1s padding ease-in-out;
+}

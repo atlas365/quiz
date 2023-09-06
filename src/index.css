@@ -1,13 +1,45 @@
+@font-face {
+  font-family: "QuicksandBold";
+  src: local("QuicksandBold"),
+    url("./fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "QuicksandMedium";
+  src: local("QuicksandMedium"),
+    url("./fonts/Quicksand-Medium.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "QuicksandLight";
+  src: local("QuicksandLight"),
+    url("./fonts/Quicksand-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "QuicksandMedium"
+}
+
+p {
+  margin: 0;
+  font-family: "QuicksandMedium"
+}
+
+button {
+  margin: 0;
+  font-family: "QuicksandMedium";
+}
+
+input {
+  margin: 0;
+  font-family: "QuicksandMedium";
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

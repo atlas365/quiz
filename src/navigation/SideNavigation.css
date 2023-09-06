@@ -1,0 +1,33 @@
+.side-nav-bar {
+  width: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--darkBlue);
+  padding-top: 16px;
+}
+
+.side-nav-drawer {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: var(--darkBlue);
+  transform: translateX(-300px);
+  transition: 0.3s all ease-in-out;
+  z-index: 1;
+  border-radius: 12px;
+  padding-top: 16px;
+}
+
+.side-nav-drawer.open {
+  transform: translateX(0px);
+}
+
+.row-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 16px;
+}

@@ -1,0 +1,14 @@
+.buttonStyle {
+  padding: 10px 25px;
+  font-size: 20px;
+  border-radius: 6px;
+  border-color: var(--darkBlue);
+  border-style: solid;
+  border-width: 1px;
+  color: var(--darkBlue);
+  background-color: var(--white);
+}
+
+.buttonStyle:hover {
+  background-color: var(--lightBlue);
+}

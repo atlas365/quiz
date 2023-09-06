@@ -1,0 +1,26 @@
+:root {
+  /* Set the deafult values */
+  --selected-primary-color: var(--light-primary-color);
+  --selected-disabled-color: var(--light-disabled-color);
+
+  /* Set the 'light' theme */
+  --light-primary-color: #007bff;
+  --light-disabled-color: #6c757d;
+
+  /* Set the 'dark' theme */
+  --dark-primary-color: #000000;
+  --dark-disabled-color: #4a4a4b;
+
+  --gunmetal: #2d3142;
+  --uranianBlue: #a7d0fa;
+  --frenchGray: #adacb5;
+  --platinum: #d8d5db;
+  --lavender: #eae8ff;
+
+  --white: #ffffff;
+  --midnightBlue: #41729f;
+  --blueGray: #5885af;
+  --darkBlue: #274472;
+  --babyBlue: #c3e0e5;
+  --lightBlue: #f7f7fe;
+}
